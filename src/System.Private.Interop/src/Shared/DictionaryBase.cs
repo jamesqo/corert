@@ -13,19 +13,19 @@ namespace System.Collections.Generic.Internal
 {
     internal class SR
     {
-        static internal string ArgumentOutOfRange_NeedNonNegNum = "ArgumentOutOfRange_NeedNonNegNum";
-        static internal string Arg_WrongType = "Arg_WrongType";
-        static internal string Arg_ArrayPlusOffTooSmall = "Arg_ArrayPlusOffTooSmall";
-        static internal string Arg_RankMultiDimNotSupported = "Arg_RankMultiDimNotSupported";
-        static internal string Arg_NonZeroLowerBound = "Arg_NonZeroLowerBound";
-        static internal string Argument_InvalidArrayType = "Argument_InvalidArrayType";
-        static internal string Argument_AddingDuplicate = "Argument_AddingDuplicate";
-        static internal string InvalidOperation_EnumFailedVersion = "InvalidOperation_EnumFailedVersion";
-        static internal string InvalidOperation_EnumOpCantHappen = "InvalidOperation_EnumOpCantHappen";
-        static internal string NotSupported_KeyCollectionSet = "NotSupported_KeyCollectionSet";
-        static internal string NotSupported_ValueCollectionSet = "NotSupported_ValueCollectionSet";
-        static internal string ArgumentOutOfRange_SmallCapacity = "ArgumentOutOfRange_SmallCapacity";
-        static internal string Argument_InvalidOffLen = "Argument_InvalidOffLen";
+        static internal string ArgumentOutOfRange_NeedNonNegNum => nameof(ArgumentOutOfRange_NeedNonNegNum);
+        static internal string Arg_WrongType => nameof(Arg_WrongType);
+        static internal string Arg_ArrayPlusOffTooSmall => nameof(Arg_ArrayPlusOffTooSmall);
+        static internal string Arg_RankMultiDimNotSupported => nameof(Arg_RankMultiDimNotSupported);
+        static internal string Arg_NonZeroLowerBound => nameof(Arg_NonZeroLowerBound);
+        static internal string Argument_InvalidArrayType => nameof(Argument_InvalidArrayType);
+        static internal string Argument_AddingDuplicate => nameof(Argument_AddingDuplicate);
+        static internal string InvalidOperation_EnumFailedVersion => nameof(InvalidOperation_EnumFailedVersion);
+        static internal string InvalidOperation_EnumOpCantHappen => nameof(InvalidOperation_EnumOpCantHappen);
+        static internal string NotSupported_KeyCollectionSet => nameof(NotSupported_KeyCollectionSet);
+        static internal string NotSupported_ValueCollectionSet => nameof(NotSupported_ValueCollectionSet);
+        static internal string ArgumentOutOfRange_SmallCapacity => nameof(ArgumentOutOfRange_SmallCapacity);
+        static internal string Argument_InvalidOffLen => nameof(Argument_InvalidOffLen);
     }
 
     internal class HashHelpers
